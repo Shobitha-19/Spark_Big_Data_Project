@@ -2,6 +2,25 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title="Student Score Analytics", layout="wide")
+
+# --- Project Credentials Section ---
+st.markdown("""
+### Developed By:
+**Shobitha** (1SJ23CS027)  
+**Vidhya** (1SJ23CS045)  
+**Poojitha** (1SJ23CS026)  
+**Dimple** (1SJ23CS052)  
+
+<br><br>
+
+#### Under the guidance of:
+**Dr. SHRIHARI M R**  
+*(Associate Professor, SJCIT)*
+""", unsafe_allow_html=True)
+
+st.divider()
+
+# --- Main Dashboard Section ---
 st.title("🎓 Student Score Analytics Dashboard")
 st.caption("Frontend interface connected to the PySpark Big Data analysis pipeline.")
 
